@@ -5,7 +5,7 @@ object Main {
     val final_cost = total_cost(60)
     println("Final Cost = "+final_cost)
 
-    //Output => Final Cost = 1085.699999998
+    //Output => Final Cost = 1055.6999999998
 
   }
 
@@ -21,14 +21,15 @@ object Main {
   }
 
   def shippingCost(x: Int): Double = { //get the shipping cost
-    //if(x<=50) x*3 else 50*3 + (x-50)*0.75
-   if(x>50) {
-      return x*3 + (x-50)*0.75
-   } else {
-     return  x*3
+    if(x<=50) {
+     x*3.00
+   }
+   else {
+     50*3.00 + (x-50)*0.75
    }
 
   }
+  
   def total_cost(x:Int):Double = {
     AfterReduceDiscount(x) + shippingCost(x)
   }
