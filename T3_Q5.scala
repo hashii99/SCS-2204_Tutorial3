@@ -5,7 +5,7 @@ object Main {
     var total_time = easyPeace(2)+tempo(3)+easyPeace(2)
     println("Total Running Time = "+total_time)
 
-    //answer => 53
+    //Output => Total Running Time = 53
 
   }
 
