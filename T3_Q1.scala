@@ -7,7 +7,7 @@ object Main {
   //78.53981633974483
 
   }
-  //Question 1
+ 
   def AreaOfDisk(r:Int):Double = {
     return (math.Pi * r * r)
   }
