@@ -5,7 +5,7 @@ object Main {
     val final_cost = total_cost(60)
     println("Final Cost = "+final_cost)
 
-    //answer = 1085.699999998
+    //Output => Final Cost = 1085.699999998
 
   }
 
