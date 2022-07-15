@@ -4,7 +4,7 @@ object Main {
     //Question 1 - Area of a disk
     println("Area of disk = "+AreaOfDisk(5))
 
-  //78.53981633974483
+  //output => Area of disk = 78.53981633974483
 
   }
  
