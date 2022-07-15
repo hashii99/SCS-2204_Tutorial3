@@ -4,7 +4,7 @@ object Main {
     //Question 2 - Convert temperature
     println("Temperature (F) = "+ConvertTemp(35))
 
-    //95.0
+    //Output => Temperature (F) = 95.0
   }
 
 
